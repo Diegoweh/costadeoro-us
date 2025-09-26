@@ -4,7 +4,7 @@ export function HeroSection() {
       {/* Background Image */}
       <div className="absolute inset-0">
         <img
-          src="https://images.pexels.com/photos/4321122/pexels-photo-4321122.jpeg"
+          src="https://cdn0.bodas.com.mx/vendor/7832/3_2/960/jpg/costadeoro-279_5_107832.jpeg"
           alt="Costa de Oro beachfront view"
           className="w-full h-full object-cover"
         />
