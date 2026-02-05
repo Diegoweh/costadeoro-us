@@ -1,4 +1,6 @@
-export function HeroSection() {
+
+export function HeroSection() {  
+
   return (
     <section className="relative h-screen">
       {/* Background Image */}
@@ -21,12 +23,16 @@ export function HeroSection() {
             Discover paradise on the shores of Mazatlán with breathtaking views of the Pacific Ocean
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
-            <button className="bg-yellow-700 hover:bg-yellow-900 text-white px-8 py-3 rounded-lg text-lg font-medium transition-colors">
+            <a
+              href="https://hotelcostadeoro.mx/english/index.html?open=reserva"
+              className="bg-yellow-700 hover:bg-yellow-900 text-white px-8 py-3 rounded-lg text-lg font-medium transition-colors"
+            >
               Book Now
-            </button>
-            <button className="border-2 border-white text-white hover:bg-white hover:text-gray-800 px-8 py-3 rounded-lg text-lg font-medium transition-colors">
+            </a>
+
+            <a href="https://hotelcostadeoro.mx/english/pages/habitaciones.html" className="border-2 border-white text-white hover:bg-white hover:text-gray-800 px-8 py-3 rounded-lg text-lg font-medium transition-colors">
               View Rooms
-            </button>
+            </a>
           </div>
         </div>
       </div>

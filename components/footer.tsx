@@ -11,13 +11,13 @@ export function Footer() {
             <div className="flex items-center space-x-2 mb-4">
               <Link href="/" className="flex items-center space-x-2">
             {/* Logo image */}
-            <Image
-                src="/img/costa-logo.png" // reemplaza con la ruta de tu logo
-                alt="Costa de Oro Logo"
-                width={140}
-                height={140}
-                priority
-            />     
+            <img 
+              src="./img/costa-logo.png" 
+              alt="Costa de Oro Logo" 
+              width="140" 
+              height="140" 
+              loading="lazy" 
+            />
             </Link>
               
             </div>

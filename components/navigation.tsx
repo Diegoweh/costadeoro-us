@@ -10,13 +10,14 @@ export function Navigation() {
           <div className="flex items-center">
             <Link href="/" className="flex items-center space-x-2">
             {/* Logo image */}
-            <Image
-                src="/img/costa-logo.png" // reemplaza con la ruta de tu logo
-                alt="Costa de Oro Logo"
-                width={90}
-                height={90}
-                priority
-            />     
+            <img 
+              src="./img/costa-logo.png" 
+              alt="Costa de Oro Logo" 
+              width="90" 
+              height="90" 
+              loading="lazy" 
+            />
+
             </Link>
           </div>
 

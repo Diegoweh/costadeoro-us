@@ -62,7 +62,7 @@ export function ContentSection() {
         <div className="grid md:grid-cols-2 gap-8 mb-20">
           <div className="space-y-4">
             <img
-              src="/img/hero1.webp"
+              src="./img/hero1.webp"
               alt="Room with ocean view"
               className="w-full h-180 object-cover rounded-lg"
             />
@@ -74,7 +74,7 @@ export function ContentSection() {
 
           <div className="space-y-4">
             <img
-              src="/img/hero2.webp"
+              src="./img/hero2.webp"
               alt="Hotel restaurant"
               className="w-full h-180 object-cover rounded-lg"
             />
@@ -92,12 +92,12 @@ export function ContentSection() {
             Book now and discover why Costa de Oro is the preferred destination in Mazatlán
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
-            <button className="bg-yellow-500 hover:bg-yellow-700 text-white px-8 py-3 rounded-lg text-lg font-medium transition-colors">
+            <a href="https://hotelcostadeoro.mx/english/index.html?open=reserva" className="bg-yellow-500 hover:bg-yellow-700 text-white px-8 py-3 rounded-lg text-lg font-medium transition-colors">
               Book Now
-            </button>
-            <button className="border-2 border-yellow-500 text-yellow-700 hover:bg-yellow-500 hover:text-white px-8 py-3 rounded-lg text-lg font-medium transition-colors">
-              View Special Offers
-            </button>
+            </a >
+            <a href="tel:18773418355" className="border-2 border-yellow-500 text-yellow-700 hover:bg-yellow-500 hover:text-white px-8 py-3 rounded-lg text-lg font-medium transition-colors">
+              Toll Free USA/Canada
+            </a >
           </div>
         </div>
       </div>
