@@ -6,7 +6,7 @@ export function HeroSection() {
       {/* Background Image */}
       <div className="absolute inset-0">
         <img
-          src="https://cdn0.bodas.com.mx/vendor/7832/3_2/960/jpg/costadeoro-279_5_107832.jpeg"
+          src="/img/pergola.webp"
           alt="Costa de Oro beachfront view"
           className="w-full h-full object-cover"
         />
@@ -17,21 +17,21 @@ export function HeroSection() {
       <div className="relative z-10 flex items-center justify-center h-full">
         <div className="text-center text-white max-w-4xl mx-auto px-4">
           <h1 className="text-5xl md:text-7xl font-light mb-6 text-balance">
-            Welcome to<span className="block font-semibold">Costa de Oro</span>
+            Di acepto, pero<span className="block font-semibold">Frente al mar</span>
           </h1>
           <p className="text-xl md:text-2xl mb-8 text-white/90 max-w-2xl mx-auto text-pretty">
-            Discover paradise on the shores of Mazatlán with breathtaking views of the Pacific Ocean
+            Haz de tu evento algo inolvidable con el océano como fondo. Espacios frente al mar, atardeceres únicos y la atención perfecta para celebrar como siempre lo soñaste.
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <a
               href="https://hotelcostadeoro.mx/english/index.html?open=reserva"
               className="bg-yellow-700 hover:bg-yellow-900 text-white px-8 py-3 rounded-lg text-lg font-medium transition-colors"
             >
-              Book Now
+              Reserva ahora
             </a>
 
             <a href="https://hotelcostadeoro.mx/english/pages/habitaciones.html" className="border-2 border-white text-white hover:bg-white hover:text-gray-800 px-8 py-3 rounded-lg text-lg font-medium transition-colors">
-              View Rooms
+              Ver Habitaciones
             </a>
           </div>
         </div>
