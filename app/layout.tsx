@@ -31,7 +31,7 @@ export default function RootLayout({
         {children}
 
         {/* Google tag (gtag.js) - cargamos solo una vez */}
-        <Script
+        {/* <Script
           src="https://www.googletagmanager.com/gtag/js?id=G-QT6XLVZ2KT"
           strategy="beforeInteractive"
         />
@@ -47,7 +47,7 @@ export default function RootLayout({
             // Google Ads
             gtag('config', 'AW-16783817896');
           `}
-        </Script>
+        </Script> */}
       </body>
     </html>
   );
